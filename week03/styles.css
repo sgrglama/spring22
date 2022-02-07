@@ -53,7 +53,7 @@ nav a {
 nav a:hover{
   background-color: #7C1A00;
 }
-article {
+#content {
   background-image: url("trans-bg.gif");
   border-width: 1px;
   border-style: solid;
