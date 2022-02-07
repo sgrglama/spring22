@@ -48,8 +48,7 @@ nav a {
   background-color: #8C9273;
   padding: 3px 60px 3px 3px;
   text-decoration: none;  
-  color: #7C1A00;
-  font-weight: bold;
+
 }
 nav a:hover{
   background-color: #7C1A00;
@@ -89,4 +88,10 @@ blockquote{
 ul{
   list-style-type: square;
 }
-
+a{
+  color: #7C1A00;
+  font-weight: bold;
+}
+a :hover{
+  background-color: #FFE597;
+}
