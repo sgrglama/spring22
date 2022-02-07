@@ -14,11 +14,11 @@ body {
 
 header h1 {
  font-size: 350%;
- color: #7c1a00;
+ color: #8C9273;
  padding: 40px 40px 40px 120px;
  background-image: url("h1image.gif");
   background-position: left top;
-   background-repeat: no-repeat;
+  background-repeat: no-repeat;
 }
 #container{
   margin-bottom: 30px;
@@ -61,7 +61,7 @@ article {
   padding: 10px;
 
 }
-footer{
+footer li{
   clear: both;
   text-align: center;
   display: inline;
