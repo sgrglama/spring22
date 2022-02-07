@@ -2,20 +2,20 @@
 @chartset "utf-8";
 body {
   font-family: "Georgia", serif;
-  color: black;
-  line-height: 140%
+  color: #000000;
+  line-height: 140%;
   margin: 30px;
-  background image: url("page-bg.gif"):
+  background-image: url("page-bg.gif");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-color:#F7F3DE;
+  background-color: #F7F3DE;
 }
 
 header h1 {
  font-size: 350%;
  color: #7c1a00;
  padding: 40px 40px 40px 120px;
- background-image:("h1image.gif") ;
+ background-image:("h1image.gif");
   background-position: left top;
    background-repeat: no-repeat;
 }
