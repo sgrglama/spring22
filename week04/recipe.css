@@ -1,0 +1,140 @@
+/* || General setup */
+
+html,body{
+    margin:0;
+    padding:0;
+  }
+  
+  html{
+    font-size:15px;
+    background-color:Pink;
+  }
+  
+  body{
+    width:100%;
+    min-width:800px;
+    margin:0 atuo;
+  }
+  
+  /* || typography */
+  
+  h1,h2,h3,h4,h5{
+    font-family:'Monaco',cursive;
+    color:Black;
+  }
+  
+  p,input,li{
+    font-family:'Roboto Condensed',sans-serif;
+    color:Purple;
+  }
+  
+  h1{
+    font-size:3.5rem;
+    text-align:center;
+    text-shadow:2px 2px 10px Purple;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    text-align: center;
+    text-shadow:2px 2px 10px Purple;
+  }
+  
+  h3 {
+    font-size: 2.5rem;
+    text-shadow:2px 2px 10px Purple;
+  }
+  
+  h4{
+    font-size:2rem;
+    text-shadow:2px 2px 10px Purple;
+  }
+  
+  p,li{
+    font-size:1.05rem;
+    line-height:1.5;
+  }
+  
+  /* || header layout */
+  
+  header {
+      margin-bottom: 10px;
+      display: flex;
+      flex-flow: row wrap;
+    }
+  
+  body>*{
+    background-color:Yellow;
+    padding:1%;
+  }
+  
+  main,header,nav,section,article,footer,aside{
+    background-color:rgba(o,255,0,0.5);
+    padding:1%;
+  }
+  
+  h1 {
+    flex:5;
+    text-transform: uppercase;
+  }
+  
+  nav {
+    height: 10px;
+    flex: 100%;
+    display: flex;
+  }
+  
+  nav ul {
+    padding: 0;
+    list-style-type: none;
+    flex: 2;
+    display: flex;
+  }
+  
+  nav li {
+    display: inline;
+    text-align: center;
+    flex: 1;
+  }
+  
+  nav a, nav span {
+    display: inline-block;
+    font-size: 2rem;
+    height: 3rem;
+    line-height: 1.7;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+  
+  }
+  
+  /* || main layout */
+  
+  main {
+    display: flex;
+  }
+  
+  article, section {
+    flex: 2.5;
+  }
+  
+  aside {
+    flex: 1.5;
+    margin-left: 4px;
+    padding: 1%;
+   
+  }
+  
+  aside a {
+    display: block;
+    float: left;
+    width: 50%;
+  }
+  
+  aside img {
+    max-width: 100%;
+  }
+  
+footer{
+Margin-top:10px;
+}
