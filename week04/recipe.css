@@ -19,35 +19,35 @@ html,body{
   /* || typography */
   
   h1,h2,h3,h4,h5{
-    font-family:'Monaco',cursive;
+    font-family:'GEORGIA',serif;
     color:Black;
   }
   
   p,input,li{
-    font-family:'Roboto Condensed',sans-serif;
-    color:Purple;
+    font-family:'verdana',sans-serif;
+    color:yellow;
   }
   
   h1{
     font-size:3.5rem;
     text-align:center;
-    text-shadow:2px 2px 10px Purple;
+    text-shadow:2px 2px 10px yellow;
   }
   
   h2 {
     font-size: 2rem;
     text-align: center;
-    text-shadow:2px 2px 10px Purple;
+    text-shadow:2px 2px 10px yellow;
   }
   
   h3 {
     font-size: 2.5rem;
-    text-shadow:2px 2px 10px Purple;
+    text-shadow:2px 2px 10px yellow;
   }
   
   h4{
     font-size:2rem;
-    text-shadow:2px 2px 10px Purple;
+    text-shadow:2px 2px 10px yellow;
   }
   
   p,li{
@@ -64,7 +64,7 @@ html,body{
     }
   
   body>*{
-    background-color:Yellow;
+    background-color:black;
     padding:1%;
   }
   
