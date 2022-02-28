@@ -1,0 +1,2 @@
+let ourPlanet ="Earth"l;
+let currentUser = "Ricky";
