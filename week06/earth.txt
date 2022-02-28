@@ -1,2 +1,2 @@
-let ourPlanet ="Earth"l;
+let ourPlanet ="Earth";
 let currentUser = "Ricky";
