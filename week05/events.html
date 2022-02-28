@@ -3,10 +3,24 @@
     <head>
 
         <script>
-            function showEvent(from, text){ alert (from+ text);}
+            function showEvent(from, text){ alert (from + text);}
             showEvent('Load', ' a Page');
         </script>
 
         <title> WEEK 05 </title>
     </head>
+    <body onload="showEvent ('Hello Everyone!' , 'The page has loaded.')">
+        <p>
+            Click to see.  
+        </p>
+        <button onclick ="myFunction()"> Click here </button>
+        <p id="try"></p>
+        
+        <script>
+            function myFunction(){
+                document.getElementById("try").innerHTML = "YAYY!! You clicked the button!"
+            }
+        </script>
+
+    </body>
 </html>
