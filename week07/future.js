@@ -1,6 +1,6 @@
-var job = ["Programmer","Teacher","Driver","Youtuber"];
-var city = ["McAllen","Dallas","Keller","Irving"];
-var spouse = ["Liza","Katy","Scarlet","Tina"];
+var job = ["Buisness-Man","Teacher","Actor","Programmer"];
+var city = ["Bedford","Dallas","Euless","Irving"];
+var spouse = ["W","X","Y","Z"];
 var numKids = [1,2,3,4];
 
 var xx = Math.floor(Math.random() * 4 )
